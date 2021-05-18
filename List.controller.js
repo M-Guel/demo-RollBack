@@ -17,6 +17,9 @@ sap.ui.define([
 
 			// Change 2 : setting a value into the variable
 			oValue = "This is a change for Rollback";
+
+			// Change 3 : using the variable
+			this.getView().getModel().setData(oValue);
 		}
 	});
 
