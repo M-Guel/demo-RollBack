@@ -23,6 +23,9 @@ sap.ui.define([
 			
 			// Change 4 : creating an unrelated variable
 			var oTemp = ""; 
+			
+			// Change 5 : creating another variable by M-Guel SAP GitHub Account
+			var oTempSAP = "";
 		}
 	});
 
