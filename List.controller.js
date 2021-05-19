@@ -20,6 +20,9 @@ sap.ui.define([
 
 			// Change 3 : using the variable
 			this.getView().getModel().setData(oValue);
+			
+			// Change 4 : creating an unrelated variable
+			var oTemp = ""; 
 		}
 	});
 
